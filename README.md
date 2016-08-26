@@ -10,3 +10,8 @@ All are in the chained dictionary version.
 ### disjoint-set
 Implemented in the array version.
 - disjoint_set.py
+
+## graph
+### kruskal's algorithm
+Use disjoint-set, minimum spanning tree/greedy
+- kruskal.py
