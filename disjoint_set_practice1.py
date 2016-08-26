@@ -35,12 +35,9 @@ def union(self, x, y):
 		self.tree[x] = y
 
 def find(self, x):
-	if self.tree[x] < 0:
-		return -self.tree[x]
-	else:
-		while self.tree[x] > 0:
-			x = self.tree[x]
-		return -self.tree[x]
+	while self.tree[x] > 0:
+		x = self.tree[x]
+	return -self.tree[x]
 
 def init(self, x):
 	self.tree = [-1] * x

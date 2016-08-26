@@ -21,12 +21,9 @@ def union(self, x, y):
 
 # 2. find
 def find(self, x):
-	if self.tree[x] < 0:
-		return -self.tree[x]
-	else:
-		while self.tree[x] > 0:
-			x = self.tree[x]
-		return -self.tree[x]
+	while self.tree[x] > 0:
+		x = self.tree[x]
+	return -self.tree[x]
 
 # 3. print
 def show(self):
