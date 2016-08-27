@@ -15,8 +15,10 @@ Implemented in the array version.
 ### kruskal's algorithm
 Use disjoint-set. A minimum spanning tree/greedy algorithm.
 - kruskal.py
+
 ### breadth-first search
 Has traversal and path algorithms for shortest reach.
 - BFS.py
-### # Dijkstra's algorithm
+
+### Dijkstra's algorithm
 - dijkstra.py
