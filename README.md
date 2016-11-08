@@ -22,3 +22,8 @@ Has traversal and path algorithms for shortest reach.
 
 ### Dijkstra's algorithm
 - dijkstra.py
+
+## others
+### prime
+- prime.py
+
