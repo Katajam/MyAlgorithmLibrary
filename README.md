@@ -1,6 +1,10 @@
-# MyAlgorithmLibrary
+# My Algorithm Library
+- This is the place where I put interesing and useful algorithms. 
+- Most algorithms are tested by the test sets on HackerRank.
 
-## tree
+---
+
+## Tree
 ### trie
 All are in the chained dictionary version.
 - trie.py
@@ -11,8 +15,10 @@ All are in the chained dictionary version.
 Implemented in the array version.
 - disjoint_set.py
 
-## graph
-### kruskal's algorithm
+--- 
+
+## Graph
+### Kruskal's algorithm
 Use disjoint-set. A minimum spanning tree/greedy algorithm.
 - kruskal.py
 
@@ -23,7 +29,9 @@ Has traversal and path algorithms for shortest reach.
 ### Dijkstra's algorithm
 - dijkstra.py
 
-## others
+---
+
+## Others
 ### prime
 - prime.py
 
